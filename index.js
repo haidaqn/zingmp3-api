@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000
 
 // Page Home
 app.get("/", (req, res) => {
-    res.send('SERVER ON')
+    res.send('SERVER ON tại https://zingmp3-api-eight.vercel.app/')
 })
 
 // ZingMp3Router
